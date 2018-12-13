@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Przykład</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style-abstract.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+</head>
+<body id="body">
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="background-color: #c23616;">
+            
+            <a class="navbar-brand" href="index.html">MyGallery.pl <img src="img/logo.png" width="35" height="30" class="d-inline-block ml-1 align-bottom" alt=""/></a>
+            
+            
+            <button class="navbar-toggler order-first" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainmenu">
+                    <ul class="navbar-nav ml-auto">
+                           
+                        <li class="nav-item mr-3 my-1">
+                            <a class="nav-link active" data-toggle="collapse" data-target=".navbar-collapse.show" href="index.html"> Home </a>
+                        </li>
+
+                        <li class="nav-item mr-3 my-1 dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true" data-toggle="collapse" data-target=".navbar-collapse.show" href="#none"> Kategorie </a>
+
+                            <div class="dropdown-menu"  aria-labelledby="submenu">
+
+                                <a class="dropdown-item" href="abstract.html"><span style="color: #2c3e50">Abstrakcyjne</span></a>
+                                <a class="dropdown-item" href="animals.html"><span style="color: #F79F1F">Zwierzęta</span></a>
+                                <a class="dropdown-item" href="#zdj3">Zdjęcie nr.3</a>
+                                <a class="dropdown-item" href="#zdj4">Zdjęcie nr.4</a>
+                                <a class="dropdown-item" href="#zdj5">Zdjęcie nr.5</a>
+                                <a class="dropdown-item" href="#zdj6">Zdjęcie nr.6</a>
+<!--                                <div class="dropdown-divider"></div>-->
+                                <a class="dropdown-item" href="#zdj7">Zdjęcie nr.7</a>
+                                <a class="dropdown-item" href="#zdj8">Zdjęcie nr.8</a>
+                                <a class="dropdown-item" href="#zdj9">Zdjęcie nr.9</a>
+                                <a class="dropdown-item" href="#zdj10">Zdjęcie nr.10</a>
+                                <a class="dropdown-item" href="#zdj11">Zdjęcie nr.11</a>
+                                <a class="dropdown-item" href="#zdj12">Zdjęcie nr.12</a>
+                            
+                            </div>
+                        </li>
+
+                        <li class="nav-item mr-3 my-1">
+                            <a class="nav-link disabled" href="#" style="cursor: default"> Rejestruj </a>
+                        </li>
+
+                        <li class="nav-item mr-3 my-1">
+                            <a class="nav-link" href="#"> Kontakt </a>
+                        </li>
+                        <div class="d-flex justify-content-center mr-4 h-100">
+                                <div class="searchbar">
+                                    <input class="search_input" type="text" name="" placeholder="Wyszukaj...">
+                                    <a href="#bottom" class="search_icon"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                    </ul> 
+            </div>
+        </nav>
+    </header>
+<main id="main">    
+    <section class="fotos">
+        <div class="container-fluid">
+            <header>
+                <p>SCROLL DOWN TO SEE THE MOST EPIC WALLPAPERS IN ENTIRE INTERNET</p>
+                <h1>Galeria zdjęć</h1>
+                <p>Przykładowe zdjęcia z kategorii<span style="color: #2ed573;"> Abstrakcyjne </span> w rozdzielczości <span style="font-weight: bold">1920x1440</span></p>
+            </header>
+            
+            <div class="row" id="middle">
+            
+                <div class="col-sm-6 col-lg-5 offset-lg-1">
+                    <figure>
+                        <a href="img/zd1.jpg" data-lightbox="MyGallery"> <img src="img/zd1.jpg" class="img-fluid" id="zdj1"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 1</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-lg-5">
+                    <figure>
+                        <a href="img/zd2.jpg" data-lightbox="MyGallery"> <img src="img/zd2.jpg" class="img-fluid" id="zdj2"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 2</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <figure>
+                        <a href="img/zd3.jpg" data-lightbox="MyGallery"> <img src="img/zd3.jpg" class="img-fluid" id="zdj3"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 3</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <figure>
+                        <a href="img/zd4.jpg" data-lightbox="MyGallery"> <img src="img/zd4.jpg" class="img-fluid" id="zdj4"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 4</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <figure>
+                        <a href="img/zd5.jpg" data-lightbox="MyGallery"> <img src="img/zd5.jpg" class="img-fluid" id="zdj5"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 5</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <figure>
+                        <a href="img/zd6.jpg" data-lightbox="MyGallery"> <img src="img/zd6.jpg" class="img-fluid" id="zdj6"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 6</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <figure>
+                        <a href="img/zd7.jpg" data-lightbox="MyGallery"> <img src="img/zd7.jpg" class="img-fluid" id="zdj7"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 7</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <figure>
+                        <a href="img/zd8.jpg" data-lightbox="MyGallery"> <img src="img/zd8.jpg" class="img-fluid" id="zdj8"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 8</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <figure>
+                        <a href="img/zd9.jpg" data-lightbox="MyGallery"> <img src="img/zd9.jpg" class="img-fluid" id="zdj9"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 9</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <figure>
+                        <a href="img/zd10.jpg" data-lightbox="MyGallery"> <img src="img/zd10.jpg" class="img-fluid" id="zdj10"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 10</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <figure>
+                        <a href="img/zd11.jpg" data-lightbox="MyGallery"> <img src="img/zd11.jpg" class="img-fluid" id="zdj11"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 11</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <figure>
+                        <a href="img/zd12.jpg" data-lightbox="MyGallery"> <img src="img/zd12.jpg" class="img-fluid" id="zdj12"></a>
+                        <figcaption>Zdjęcie podglądowe nr. 12</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer id="bottom"><p>Paweł Tulicki 2018</p></footer>
+</main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+<!--    Smooth scroll-->
+    <script src="dist/smooth-scroll.js"></script>
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
